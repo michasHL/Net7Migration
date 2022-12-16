@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration.Binder.v6.Working", "Configuration.Binder.v6.Working\Configuration.Binder.v6.Working.csproj", "{CAD6A020-26F8-49CF-8D1C-0933487B9E2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration.Binder.v7.NotWorking", "Configuration.Binder.v7.NotWorking\Configuration.Binder.v7.NotWorking.csproj", "{DCBD0F7C-ED06-4C20-8BB9-F4C5937961F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationProvider.Net7.DoubleConfigure.NotWorking", "ConfigurationProvider.Net7.DoubleConfigure.NotWorking\ConfigurationProvider.Net7.DoubleConfigure.NotWorking.csproj", "{21A271E6-694F-4D2C-9084-8E1BA958A942}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationProvider.Net6.DoubleConfigure.Working", "ConfigurationProvider.Net6.DoubleConfigure.Working\ConfigurationProvider.Net6.DoubleConfigure.Working.csproj", "{32C18D26-BD67-48C2-AE75-6C588D045F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration.Binder", "Configuration.Binder", "{FA99E884-7BE7-413B-B360-0084534ADAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationProvider", "ConfigurationProvider", "{3BAC2B4D-911E-40CA-8330-EDCD6573FB41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD6A020-26F8-49CF-8D1C-0933487B9E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD6A020-26F8-49CF-8D1C-0933487B9E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD6A020-26F8-49CF-8D1C-0933487B9E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD6A020-26F8-49CF-8D1C-0933487B9E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBD0F7C-ED06-4C20-8BB9-F4C5937961F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBD0F7C-ED06-4C20-8BB9-F4C5937961F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBD0F7C-ED06-4C20-8BB9-F4C5937961F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBD0F7C-ED06-4C20-8BB9-F4C5937961F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A271E6-694F-4D2C-9084-8E1BA958A942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A271E6-694F-4D2C-9084-8E1BA958A942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A271E6-694F-4D2C-9084-8E1BA958A942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A271E6-694F-4D2C-9084-8E1BA958A942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C18D26-BD67-48C2-AE75-6C588D045F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C18D26-BD67-48C2-AE75-6C588D045F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C18D26-BD67-48C2-AE75-6C588D045F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C18D26-BD67-48C2-AE75-6C588D045F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAD6A020-26F8-49CF-8D1C-0933487B9E2B} = {FA99E884-7BE7-413B-B360-0084534ADAF6}
+		{DCBD0F7C-ED06-4C20-8BB9-F4C5937961F7} = {FA99E884-7BE7-413B-B360-0084534ADAF6}
+		{21A271E6-694F-4D2C-9084-8E1BA958A942} = {3BAC2B4D-911E-40CA-8330-EDCD6573FB41}
+		{32C18D26-BD67-48C2-AE75-6C588D045F0E} = {3BAC2B4D-911E-40CA-8330-EDCD6573FB41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B231DFE-D422-40A4-8EFA-63D0D3702D8F}
+	EndGlobalSection
+EndGlobal
